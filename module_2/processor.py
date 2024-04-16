@@ -26,5 +26,5 @@ def process(articleNum):
             text = element.text.strip() + "\n" # Puts in one of the lines of the file, and adds a newline tag to make it look nice
             article.write(text) # Writes the data into the new file
         article.close() # Closes the new file, meaning all of the processed data should be in there
-        summary.summary(num)
+        # summary.summary(num)
         num += 1 # Increases num by 1

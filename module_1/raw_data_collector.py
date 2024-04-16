@@ -11,13 +11,6 @@ from bs4 import BeautifulSoup
 def rdc(arguments):
     articleFile = arguments[1] # Gets the path/file for the articles to be read
     if(os.path.isfile(articleFile)): # Checks if the path leads to a valid file
-
-        # Test Case 8 Code
-        with open(articleFile, "r") as file:
-            li = file.readlines()
-        total_line = len(li)
-        file.close()
-
         articleList = open(articleFile, "r") # Opens the file as read only
         articleNum = 1
         for URL in articleList.readlines():
@@ -31,10 +24,4 @@ def rdc(arguments):
             article.write(str(soup)) # Writes the raw HTML into the file
             articleNum += 1 # Increases the count number
             article.close() # Closes the file
-
-        # Test Case 8 Code Continued
-        if total_line+1 == articleNum:
-            print("Correct number of articles processed")
-        # End of Test Case 8 Code
-
     return articleNum
