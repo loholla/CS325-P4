@@ -86,6 +86,8 @@ to load the updated profile. Finally, verify that it works by using the command 
  ### Test Case 6:
 
  ### Test Case 7:
+ To run Test Case 7, use the command python tc7.py
+ All you need to run this test case is to make sure your API key is set inside of your environment. It should output "Yes." or "Yes" if the API responds.
 
  ### Test Case 8:
  To run Test Case 8, use the command python tc8.py "articles.txt"
