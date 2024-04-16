@@ -67,3 +67,26 @@ to load the updated profile. Finally, verify that it works by using the command 
  ### Warnings:
  This Web Scraper only works for CNN articles, and has only been tested on articles gathered through this link: https://www.cnn.com/business/tech.
  This Web Scraper may work on other CNN articles, but not on any other website unless they use the exact same structure and classes as the CNN website does.
+
+ ## TEST CASES:
+ ### Test Case 1:
+ To run Test Case 1, use the command python tc1.py "articles.txt"
+ You can replace the file with the file you want, as long as it is a .txt file. The output should be "Line # is a URL" if the line is a URL, or "Line # is not a URL" if the line is not a URL
+
+ ### Test Case 2:
+ To run Test Case 2, use the command python tc2.py "articles.txt"
+ You can replace the file with any file you like, as long as it is a .txt file. The output should be "Article #: 200" if the webpage is working.
+
+ ### Test Case 3:
+
+ ### Test Case 4:
+
+ ### Test Case 5:
+
+ ### Test Case 6:
+
+ ### Test Case 7:
+
+ ### Test Case 8:
+ To run Test Case 8, use the command python tc8.py "articles.txt"
+ You can replace the file with any .txt file that passes Test Case 1 and 2. It will then output the total number of articles, the number of articles processed, and if the two match it will say "Accurate number of articles processed".
