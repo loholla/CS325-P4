@@ -1,5 +1,5 @@
-# Welcome to my Web Scraper 
-## This project was made for my CS325 class, but it is a program that will take the link from a news article and output the raw text without any HTML tags. 
+# Welcome to the Web Scraper Project 4
+## This project was made for CS325. Test cases by Logan Holland and Joshua Caley
 
 ### Step 1: Setting up the environment
 Install Miniconda and download the file webscraperp3.yaml. Once you have done that, use the command "conda env create -f webscraperp3.yaml" to create your environment.
